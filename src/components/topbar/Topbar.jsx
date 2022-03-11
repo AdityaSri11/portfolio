@@ -6,5 +6,5 @@ export default function Topbar() {
         <div className="topbar">
             
         </div>
-    )
+    ) 
 }
