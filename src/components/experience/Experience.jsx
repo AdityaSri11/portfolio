@@ -45,9 +45,11 @@ export default function Experience() {
             <div className="container">
                 {data.map((d) => (
                 <div className="item">
-                    <img src= {d.img} alt="" />
+                    <a href={d.url} target="_blank" className="item">
+                        <img src={d.img} alt =""/>
+                    </a>
+
                     <h3>{d.title}</h3>
-                    
                 </div>
                 ))}
             </div>
