@@ -11,8 +11,8 @@ function App() {
       <Topbar/>
       <div className="sections">
         <Intro/>  
-        <Experience/>
         <Skills/>
+        <Experience/>
         <Connect/>
       </div>
     </div>

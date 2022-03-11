@@ -10,10 +10,17 @@
         margin-bottom: 10px;
     }
 
+    h4{
+        margin-bottom: 20px;
+        margin-right: 40px;
+    }
+
     align-items: center;
 
     ul{
-        margin: 10px;
+        margin-top: 50px;
+        margin-bottom: 0px;
+        //margin: 10px;
         padding: 0; 
         list-style: none;
         display: flex;
@@ -32,7 +39,7 @@
 
         .item{
             overflow: 0;
-            margin-top: 30px;
+            margin-top: 0px;
             width: 450px;
             height: 400px;
             border-radius: 20px;
