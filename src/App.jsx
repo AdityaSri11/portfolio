@@ -3,6 +3,7 @@ import TopBar from "./components/topbar/Topbar";
 import Intro from "./components/intro/Intro";
 import Experience from  "./components/experience/Experience";
 import Connect from "./components/connect/Connect";
+import Skills from "./components/skills/Skills";
 import "./app.scss"
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <div className="sections">
         <Intro/>  
         <Experience/>
+        <Skills/>
         <Connect/>
       </div>
     </div>
