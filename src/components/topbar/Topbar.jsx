@@ -10,11 +10,11 @@ export default function Topbar() {
         
                     <a href="#intro" className="logo">Aditya S.</a>
                     <div className="itemContainer">
-                        <LocalPhone classname="icon" />
+                        <LocalPhone className="icon" />
                         <span>+1 732-491-9931</span>
                     </div>
                     <div className="itemContainer">
-                        <Email classname="icon"/>
+                        <Email className="icon"/>
                         <span>aditya.srikanth111@gmail.com</span>
                     </div>
                 </div>
