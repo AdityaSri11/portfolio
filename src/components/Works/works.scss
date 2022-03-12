@@ -5,9 +5,18 @@
     justify-content: center;
     position: relative;
 
+    .heading {
+        color:white;
+        position: relative; 
+        top: -285px;
+        font-size: 50px;
+        font-family: Tahoma;
+    }
+
     .arrow{
         height: 50px;
         position: absolute;
+        margin-top: 50px;
 
         &.left{
             left: 100px;
@@ -28,8 +37,9 @@
         position: absolute;
         left: 0;
         transition: all 1s ease-out;
+        margin-top: 50px;
 
-        .container{
+        .container{    
             width: 100vw;
             display: flex;
             align-items: center;
