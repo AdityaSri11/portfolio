@@ -1,3 +1,91 @@
 .connect{
-    background-color: red // turn 989795;
+    background-color: white;// turn 989795;
+    display: flex;
+
+    margin-top: 50px;
+
+    hr{
+        margin-top: 65px;
+        min-height: 70%;
+        max-height: 70vh;
+        
+    }
+
+    .left{
+        flex: 0.5;
+
+        h1{
+            margin-top: 50px;
+            text-align: center;
+            margin-bottom: 35px;
+        }
+
+        .labels{
+            margin-left: 70px;
+        }
+        
+        input[type=text], select, textarea {
+
+            margin-left: 70px;
+            width: 85%; 
+            padding: 12px;  
+            //border: 1px solid #ccc; 
+            border-radius: 4px; 
+            box-sizing: border-box; 
+            margin-top: 6px; 
+            margin-bottom: 25px; 
+            resize: vertical 
+          }
+    }
+
+    .right{
+        flex: 0.5;
+        
+        h1{
+            margin-top: 50px;
+            text-align: center;
+            margin-bottom: 35px;
+        }
+
+        .buttonGroup{
+            text-align: center;
+            align-items: center;
+            
+            .linkedIn{
+                width: 25%;
+                text-transform: unset !important;
+                color: white;
+                background-color: #2867B2;
+            }
+
+            .gitHub{
+                width: 25%;
+                text-transform: unset !important;
+                color: white;
+                background-color: #6e5494;
+            }
+            
+            .instagram{
+                width: 25%;
+                text-transform: unset !important;
+                color: white;
+                background-color: #E1306C;
+            }
+            
+            .email{
+                width: 25%;
+                text-transform: unset !important;
+                color: white;
+                background-color: black;
+            }
+
+            .resume{
+                width: 25%;
+                text-transform: unset !important;
+                color: white;
+                background-color: #3a3b3c;
+            }
+        }
+    }
+
 }
