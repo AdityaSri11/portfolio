@@ -22,7 +22,7 @@ export default function Topbar() {
                 <div className="right">
                     <span className="navigation">
                         <a href="#intro" className="choices">Home</a>
-                        <a href="#skills" className="choices">Skills</a>
+                        <a href="#skills" className="choices">About</a>
                         <a href="#experience" className="choices">Experience</a>
                         <a href="#connect" className="choices">Connect</a>
                     </span>

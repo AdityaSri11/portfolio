@@ -1,3 +1,94 @@
 .skills{
-    background-color: greenyellow // turn 989795;
+    background-color: white; // turn 989795;
+    display: flex;
+
+    .left {
+        flex: 0.5;
+        
+        img{
+            text-align:center;
+            margin-top: 90px;
+            margin-left: auto;
+            margin-right: auto;
+            width: 75%;
+            height: 75%;
+            align-items: center;
+            justify-content: center;
+        }
+
+        h2{
+            align-items: center;
+            text-align: center;
+            justify-content: center;
+        }
+    }
+    .right{
+        flex: 0.5;
+        
+        h1{
+            margin-top: 40px;
+            font-size: 50px;
+            font-family: Tahoma;
+        }
+
+        .introParagraph{
+
+
+            p {
+                font-family: Tahoma;
+                text-align: unset;
+                text-indent: 30px;
+                margin-right: 80px;
+                justify-content: center;
+            }
+
+            .skills{
+                ul{
+                    list-style: none;
+                    padding-left: 0;
+                    columns: 2;
+                    -webkit-columns: 2;
+                    -moz-columns: 2;
+    
+                    li{
+                        margin-bottom: 10px;
+                    }
+                    
+                    li:before {
+                        margin-right: 10px;
+                        content: '✔';
+                    }
+                }
+            }
+
+            .coursework{
+                ul{
+                    list-style: none;
+                    padding-left: 0;
+                    columns: 2;
+                    -webkit-columns: 2;
+                    -moz-columns: 2;
+
+                    li{
+                        margin-bottom: 10px;
+                    }
+                    
+                    li:before {
+                        margin-right: 10px;
+                        content: '📖';
+                    }
+                }
+            }
+        
+            
+            
+        
+
+
+            
+        }
+        
+        
+    }
+
 }
