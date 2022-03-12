@@ -16,7 +16,7 @@ export const projectsExperience = [
 export const workExperience = [
     {
         id: 1,
-        title: "General Atomics Summer 2022 Internship",
+        title: "General Atomics Summer 22' Internship",
         img: "https://n7f2x3w4.rocketcdn.me/wp-content/uploads/2018/02/General-Atomics-logo.jpg",
         url: "https://ga.com",
     },
