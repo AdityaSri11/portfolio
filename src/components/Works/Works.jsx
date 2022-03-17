@@ -42,7 +42,7 @@ export default function Works() {
             type: "Projects",
             icon: "assets/projects.png",
             title: "Boiler Consulting Group",
-            desc: "Word",
+            desc: "Boiler Consulting Group acts as a consulting company within Purdue, to help large companies solve their issues. Currently, I serve as the project manager for the Purdue Crew project, which involves setting up a mentorship program between alumni and current Purdue Rowers. In the past I have served as an active consultant on the Pacers Sports and Entertainment project, and as the Lead Consultant on the Kraft-Heinz Data Science Project. ",
             img: "https://engineering.purdue.edu/Engr/Academics/Undergraduate/PEPC/PEPC-Groups/BCG/BCG-web.jpg",
             url: "https://engineering.purdue.edu/Engr/Academics/Undergraduate/PEPC/PEPC-Groups/BCG",
         },
@@ -52,7 +52,7 @@ export default function Works() {
             type: "Projects",
             icon: "assets/projects.png",
             title: "Python for Data Science TA",
-            desc: "Responsible for managing students in a course that teaches Python programming to students through data science problems. The course includes various Python concepts as well as introductory data science topics such as hypothesis testing, clustering/k-means, mixture models, as well as linear and logistical regression. As a teacher's assistant, I am in charge of grading homework, conducting office hours, and instructing students about course topics.",
+            desc: "Responsible for managing students in a course that teaches Python programming to students through data science problems. The course includes various Python concepts as well as data science topics such as hypothesis testing, clustering/k-means, mixture models, as well as linear and logistical regression. As a T.A, I am in charge of grading homework, conducting office hours, and instructing students about course topics.",
             img: "https://engineering.purdue.edu/Wraps/ECO/wrap8/themes/default/common/og-image-default.png",
             url: "https://engineering.purdue.edu/ECE/Academics/Undergraduates/UGO/CourseInfo/courseInfo?courseid=729&show=true&type=undergrad",
         },
@@ -95,10 +95,8 @@ export default function Works() {
                                                 <img src={d.icon} alt ="Click Here to learn More"/>
                                             </a>  
                                             <a href={d.url} target="_blank" className="link">
-                                                <p>Click Icon for More Info</p>
+                                                <p>Click here for More Info</p>
                                             </a>  
-
-
 
                                         </div>  
                                     </div>
@@ -113,6 +111,7 @@ export default function Works() {
                             </div>    
                         </div>    
                         <div className="right">
+                            
                             <img src={d.img} alt="" />    
                         </div>
                     </div>    

@@ -24,7 +24,7 @@ export default function Intro() {
                     <h1>Aditya Srikanth,</h1>
                     <h3>Dedicated <span ref ={textRef}></span></h3>
                 </div>
-                <a href="#experience">
+                <a href="#skills">
                     <img src="assets/caret.png" alt=""/>    
                 </a>
             </div>

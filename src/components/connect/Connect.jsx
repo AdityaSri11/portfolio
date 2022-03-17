@@ -24,7 +24,8 @@ export default function Connect() {
                         <label htmlFor="Reasons for Reaching Out"></label>
                         <p className="labels">Reason for Contact:</p>
                         <select name="service" id="service" placeholder="Reason for Contact" className="labels">
-                            <option value="request">Request Develop Services</option>    
+                            <option value="blank"></option>
+                            <option value="request">Request Developer Services</option>    
                             <option value="internship">Reaching Out About Internship/Job</option>
                             <option value="other">Other</option>
                         </select>
