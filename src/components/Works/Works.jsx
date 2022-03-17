@@ -9,6 +9,7 @@ export default function Works() {
     const data = [
         {
             id: "1",
+            type: "Projects",
             icon: "assets/projects.png",
             title: "Vertically Integrated Projects",
             desc: "Tasked with working with a team to develop a mobile phone application that captures images and extracts specific information from the images using tools such as machine learning. Developed an application that takes images of license plates found on vehicles and uses image processing technology to identify the characters that are on the license plate for any state plate in the United States.",
@@ -18,6 +19,7 @@ export default function Works() {
 
         {
             id: "2",
+            type: "Projects",
             icon: "assets/projects.png",
             title: "Huffman Decoding Project",
             desc: "Created a C program that incorporates the Huffman code, an algorithm that encodes characters in text files as estimations in the probabilities and frequencies of the occurrence of the character. Coded this algorithm with the use of binary trees, linked lists, and nodes in C on a Unix operating system.",
@@ -27,6 +29,7 @@ export default function Works() {
 
         {
             id: "3",
+            type: "Projects",
             icon: "assets/projects.png",
             title: "General Atomics Summer 22' Internship",
             desc: "Incoming Summer 2022 Software Development Intern",
@@ -36,6 +39,7 @@ export default function Works() {
 
         {
             id: "4",
+            type: "Projects",
             icon: "assets/projects.png",
             title: "Boiler Consulting Group",
             desc: "Word",
@@ -45,6 +49,7 @@ export default function Works() {
 
         {
             id: "5",
+            type: "Projects",
             icon: "assets/projects.png",
             title: "Python for Data Science TA",
             desc: "Responsible for managing students in a course that teaches Python programming to students through data science problems. The course includes various Python concepts as well as introductory data science topics such as hypothesis testing, clustering/k-means, mixture models, as well as linear and logistical regression. As a teacher's assistant, I am in charge of grading homework, conducting office hours, and instructing students about course topics.",
@@ -54,6 +59,7 @@ export default function Works() {
 
         {
             id: "6",
+            type: "Projects",
             icon: "assets/projects.png",
             title: "Purdue Solar Car",
             desc: "Currently working and designing a fully solar-powered car titled Apollo with a focus on motor control, communications for the network of microcontrollers, and the respective circuit design for each controller. I am also designing and implementing a heads-up dashboard for the driver to monitor speed, battery- temperature, and voltage using a lcd display and an Arduino Board with SPI compatibility",
@@ -67,6 +73,8 @@ export default function Works() {
           ? setCurrentSlide(currentSlide > 0 ? currentSlide - 1 : 2)
           : setCurrentSlide(currentSlide < data.length - 1 ? currentSlide + 1 : 0);
       };
+
+    
 
     return (
         <div className="works" id="works">            
@@ -83,11 +91,16 @@ export default function Works() {
                                     <div className="nextTo">
                                         <div className="imgContainer">
 
-                                            <a href={d.url} target="_blank" className="imgContainer">
+                                            <a href={d.url} target="_blank" className="iconImage">
                                                 <img src={d.icon} alt ="Click Here to learn More"/>
                                             </a>  
+                                            <a href={d.url} target="_blank" className="link">
+                                                <p>Click Icon for More Info</p>
+                                            </a>  
+
+
+
                                         </div>  
-                                        <p>Click the Icon for more info</p>  
                                     </div>
 
                                     <br />
