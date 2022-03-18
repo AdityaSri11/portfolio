@@ -1,3 +1,12 @@
+
+Aditya Srikanth Portfolio
+
+This serves as a portfolio to depict the various software skills that, Aditya Srikanth has and to depict his various projects, experiences, and extracurricular activities. This repository serves to host the base code for the website that is live on the internet. 
+
+Link to Website: https://aditya-srikanth-portfolio.vercel.app/
+
+_____________________________________________________________________________________________________
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
