@@ -1,4 +1,18 @@
 .intro{
+
+    @media (max-width: 1400px){
+        
+        .right{
+            display: none;
+        }
+        h2{
+            padding-top: 25%;
+        }
+        .imgContainer{
+            padding-top: 25%;
+        }
+        display: block;
+    }
     background-color: black;
     display: flex;
 
