@@ -4,6 +4,15 @@
 
     margin-top: 50px;
 
+    @media (max-width: 1400px){
+        .left{
+            display: none;
+        }
+        .right{
+            display: block;
+        }
+    }
+
     hr{
         margin-top: 65px;
         min-height: 70%;

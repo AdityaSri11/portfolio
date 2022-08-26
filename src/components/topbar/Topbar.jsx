@@ -9,13 +9,14 @@ export default function Topbar() {
                 <div className="left">
         
                     <a href="#intro" className="logo">Aditya S.</a>
+                    <h1 className="logoMobile">AS</h1>
                     <div className="itemContainer">
                         <LocalPhone className="icon" />
-                        <span>+1 732-491-9931</span>
+                        <span className="iconDigits">+1 732-491-9931</span>
                     </div>
                     <div className="itemContainer">
                         <Email className="icon"/>
-                        <span>aditya.srikanth111@gmail.com</span>
+                        <span className="iconDigits">aditya.srikanth111@gmail.com</span>
                     </div>
                 </div>
                 
