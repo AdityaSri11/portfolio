@@ -54,6 +54,11 @@ export default function Skills() {
                             <li>Python for Data Science</li>
                             <li>Ordinary Differential Equations</li>
                             <li>Linear Algebra</li>
+                            <li>Signals and Systems</li>
+                            <li>Linear Optimization</li>
+                            <li>Real Analysis</li>
+                            <li>Discrete Math</li>
+                            <li>Microprocessor Systems and Interfacing</li>
                         </ul>
                     </div>
                 </div>

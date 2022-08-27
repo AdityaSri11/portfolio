@@ -64,7 +64,7 @@ export default function Connect() {
                     Email
                 </Button>
                 <br /> <br /> <br />
-                <Button variant="contained" color="default" href="https://drive.google.com/file/d/1OFxT3Z8zJuYOi-pb1Qg0xjH-icPuRh2I/view?usp=sharing"
+                <Button variant="contained" color="default" href="https://drive.google.com/file/d/1k-o5ObQfHTWJZsyCy21RagERgvN1jvtu/view?usp=sharing"
                     target="_blank" startIcon={<Assignment />} className="resume">
                     Résumé
                 </Button>

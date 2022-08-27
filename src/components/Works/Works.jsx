@@ -29,12 +29,12 @@ export default function Works() {
 
         {
             id: "3",
-            type: "Projects",
+            type: "Internship",
             icon: "assets/projects.png",
-            title: "General Atomics Summer 22' Internship",
-            desc: "Incoming Summer 2022 Software Development Intern",
-            img: "https://n7f2x3w4.rocketcdn.me/wp-content/uploads/2018/02/General-Atomics-logo.jpg",
-            url: "https://ga.com",
+            title: "Fidelity Investments Summer 22' Internship",
+            desc: "Tasked with solving a memory error from legacy software, with the use of SQL plus, Jenkins/Jenkins Core, and bash scripts. In charge of writing new code to log completed SQL plus commands while optimizing its memory usage. Utilized the Agile software development model (daily scrum & Kanban boards) to model solutions, receive feedback, complete tasks, and push code to production",
+            img: "https://cdn.cdnlogo.com/logos/f/80/fidelity-investments.png",
+            url: "https://www.fidelity.com/",
         },
 
         {
@@ -59,12 +59,22 @@ export default function Works() {
 
         {
             id: "6",
-            type: "Projects",
+            type: "Clubs",
             icon: "assets/projects.png",
             title: "Purdue Solar Car",
             desc: "Currently working and designing a fully solar-powered car titled Apollo with a focus on motor control, communications for the network of microcontrollers, and the respective circuit design for each controller. I am also designing and implementing a heads-up dashboard for the driver to monitor speed, battery- temperature, and voltage using a lcd display and an Arduino Board with SPI compatibility",
             img: "https://images.squarespace-cdn.com/content/v1/53584784e4b0b772765f9073/1398662622947-TP4IHRNJK7FIDR5E3UOV/image-asset.jpeg",
             url: "https://purduesolar.org/",
+        },
+
+        {
+            id: "7",
+            type: "Projects",
+            icon: "assets/projects.png",
+            title: "Purdue Student Government",
+            desc: "New member of the Senate of the student government, and part of Directors of Technology committee. In charge of ensuring that all technical elements of the student government runs properly, including the website and other software resources.",
+            img: "https://images.squarespace-cdn.com/content/v1/628e8fb3741fca1eabd8179e/6372275c-51dc-456b-8023-89463fa89a3a/PSG+Logo.png",
+            url: "https://purduesg.org/",
         },
     ];
 
